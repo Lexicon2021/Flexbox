@@ -1,0 +1,64 @@
+:root {
+    font-size: 20px;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(212, 212, 212);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: fantasy;
+}
+
+article.product {
+    max-width: 1024px;
+    height: 512px;
+    background: #FFF;
+    display: flex;
+    box-shadow: 2px 2px 4px #333;
+    border-radius: 4px;
+}
+
+.product figure {
+    margin: 0;
+    padding: 2rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 208, 0);
+}
+
+.product figure img {
+    width: 20rem;
+    margin-top: auto;
+}
+
+.product figure figcaption {
+    font-size: 2rem;
+    margin: auto 0 0 auto;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.product aside {
+    flex: 1;
+    box-sizing: border-box;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.product aside h2 {
+    margin: 0;
+    font-weight: 500;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.4;
+    color: rgba(0, 0, 0, 0.7);
+}

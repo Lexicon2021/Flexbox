@@ -1,0 +1,43 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@100&display=swap');
+
+nav {
+    max-width: 1000px;
+    height: 10rem;
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+nav img {
+    height: 50%;
+    margin: auto auto auto 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #999;
+    margin: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+}
+
+nav a:hover {
+    color: #222;
+}
+
+nav a.login {
+    font-family: 'Pacifico', cursive;
+    padding: 0.25rem 1rem;
+    border: 1px solid #999;
+    border-radius: .25rem;
+    margin-left: auto;
+    font-size: 1.5rem;
+}
+
+nav a.login:hover {
+    color: #222;
+    border: 1px solid #222;
+}
